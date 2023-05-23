@@ -1,5 +1,5 @@
 body {
-    background-image: url(assets/img/);
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -17,25 +17,54 @@ table {
 td,
 th {
     border-bottom: 2px solid black;
-
+color: rgb(148, 14, 14);
 }
 
 tr th {
     text-align: justify;
 }
 
+tr{
+    background-color: rgb(189, 189, 189);
+}
 tr:nth-child(even) {
-    background-color: rgb(20, 145, 255);
+    background-color: rgb(39, 38, 38);
 }
 
 tr:hover {
-    background-color: rgb(255, 255, 0);
+    background-color: rgba(255, 0, 0, 0.479);
 }
 
 #tit {
     font-weight: 800;
     font-size: 3em;
-    color: rgb(184, 35, 35);
+    color: rgb(255, 39, 39);
 }
 
-.fa {}
+
+
+.wlrr{
+    width: 100px;
+}
+
+td{
+    width: 200px;
+    color: rgb(238, 45, 45);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.tdd{
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+#wlr{
+    display: flex;
+}
+
+#ig{width: 5%;}
+#tik{width: 5%;}
+#fb{width: 5%;}
+
